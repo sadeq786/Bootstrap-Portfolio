@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Profile Demo</title>
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- <div class="navbar-header">
+                <a class="navbar-brand" href="#">Shaikh Sadequr Rahman</a>
+            </div> -->
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="nav-link" href="./index.html">
+                        <span class="glyphicon glyphicon-user"> About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./portfolio.html" class="nav-link">
+                        <span class="glyphicon glyphicon-user"> Portfolio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <span class="glyphicon glyphicon-user"> Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="jumbotron">
+
+        <h1 class="display-4">Contact Me</h1>
+
+    </div>
+
+    <!-- MY GRID -->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Full Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comment">Message</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    
+                </form>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item" id="headline">Latest Blog Posts</li>
+                    <li class="list-group-item">CSS is cool</li>
+                    <li class="list-group-item">Bootstrap is better</li>
+                    <li class="list-group-item">Incorporate some JavaScript</li>
+                    <li class="list-group-item">JQuery and React are next</li>
+                    <li class="list-group-item">Some other examples</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row"></div>
+
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>Copyright Shaikh S Rahman ©</p>
+    </div>
+</body>
+
+</html>
